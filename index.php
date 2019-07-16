@@ -113,8 +113,8 @@ $mail->Port = 465; // SMTP port
 $mail->IsHtml(true);
 $mail->Username = "example@gmail.com"; // Your email
 $mail->Password = "secret"; // Your email password
-$mail->From = "example@gmail.com"; // Sender Email
-$mail->FromName = "John Doe"; // Sender Name
+$mail->From = "example@gmail.com"; // Sender email
+$mail->FromName = "John Doe"; // Sender name
 $mail->Subject = "Your ID Card";
 $mail->Body = "
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
